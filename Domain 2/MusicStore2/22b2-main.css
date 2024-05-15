@@ -1,12 +1,15 @@
 ﻿body
 {
     font-family:"Segoe UI",Tahoma,sans-serif;
-    background-color:#fab66b;
+    background-color: #fab66b;
 }
 p {
     color: navy;
 }
 .sale {
-    font-weight:bold;
-    background-color:aqua;
+    font-weight: bold;
+    background-color: aqua;
+}
+#sidenote{
+    backgroun-color: #dbd9d9;
 }
