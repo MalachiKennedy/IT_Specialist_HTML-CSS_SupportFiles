@@ -12,7 +12,7 @@
     </p>
 
     <!-- insert form here-->
-    <form action="thankyou.html" method="post">
+    <form action="thankyou.html" method="post" oninput="fn.value = firstname.value + ' ' + lastname.value">
         <label for="firstname">First Name</label>
         <input type="text" name="firstname" id="firstname" />
         <br />
@@ -31,6 +31,7 @@
         <textarea name="comments" rows="6" cols="50" maxlength="255"></textarea>
         <button name="showimage" onclick="">Show image</button>
         <input type="submit" name="submitform" value="Send it" /> <br />
+        <output name="fn"></output>
     </form>
 
 </body>
