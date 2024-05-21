@@ -31,7 +31,9 @@ figcaption {
     display:inline;
     border-color:navy;
     border-style:dashed;
-
+    border-width: 1px;
+    border-width-left: 2px;
+    border-width-right: 2px;
 }
 a {
     text-decoration: none;
