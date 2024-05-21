@@ -29,11 +29,12 @@ figcaption {
 #sidenote {
     background-color: #DDDDDD;
     display:inline;
-    border-color:navy;
+    /*border-color:navy;
     border-style:dashed;
     border-width: 1px;
     border-width-left: 2px;
-    border-width-right: 2px;
+    border-width-right: 2px;*/
+    border: 2px solid navy;
 }
 a {
     text-decoration: none;
