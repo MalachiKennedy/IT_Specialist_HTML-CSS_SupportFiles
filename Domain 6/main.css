@@ -1,6 +1,6 @@
-﻿body {
+﻿body 
     font-family:'Segoe UI', Tahoma, sans-serif;
-    background-color: #f7d2aa;
+    background-colors: #f7d2aa;
 }
 p {
     color: navy;
