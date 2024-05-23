@@ -6,6 +6,7 @@ ul{
   background-color: blue;
   float: left;
 }
+
 li{
   display: block;
 }
@@ -17,6 +18,21 @@ li a{
 li a:hover{
   background-color: teal;
 }
+
 .active{
   background-color: cyan;
+}
+
+.dropDown{
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.dropDown-content{
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+.dropDown:hover .dropDown-content{
+  display: block;
 }
