@@ -16,7 +16,7 @@ li a{
   padding: 10px 12px;
 }
 li a:hover{
-  background-color: teal;
+  background-color: lightblue;
 }
 
 .active{
