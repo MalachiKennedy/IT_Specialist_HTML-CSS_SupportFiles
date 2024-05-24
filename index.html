@@ -19,23 +19,37 @@
       <p>Use links below to navigate to actitvity</p>
     </div>
     
+    <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+      var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+    </script>
+    
     <div class="navi">
-      <ul>
-        <li>Home</li>
-          <li class="dropDown">
-            <ul>
-              Domain 1
-              <li class="dropDown-content"><a href="https://malachikennedy.github.io/IT_Specialist_HTML-CSS_SupportFiles/Domain%201/MusicStore1/11a-scripts.html">Script Support</a></li>
-              <li class="dropDown-content"><a href="https://malachikennedy.github.io/IT_Specialist_HTML-CSS_SupportFiles/Domain%201/MusicStore1/11c-scripts.html">Script Support 2</a></li>
-            </ul>
-          </li>
-          <li>Domain 2</li>
-          <li>Domain 3</li>
-          <li>Domain 4</li>
-          <li>Domain 5</li>
-          <li>Domain 6</li>
-      </ul>
-    </div>
+        <a href="https://malachikennedy.github.io/IT_Specialist_HTML-CSS_SupportFiles/">Home</a>
+        <div class="dropdown" id="Domain 1">
+          <button class="dropbtn" onclick="myFunction()"> Domain 1
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="https://malachikennedy.github.io/IT_Specialist_HTML-CSS_SupportFiles/Domain%201/MusicStore1/11a-scripts.html">Script Support</a>
+            <a href="https://malachikennedy.github.io/IT_Specialist_HTML-CSS_SupportFiles/Domain%201/MusicStore1/11c-scripts.html">Script Support 2</a>
+    
+          </div>
+        </div> 
+      </div>
+    
     <div class="container">
       <div class="left">
       </div>
