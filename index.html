@@ -26,7 +26,7 @@
       document.getElementById("myDropdown").classList.toggle("show");
     }
     // Close the dropdown if the user clicks outside of it
-    window.onclick = function(e) {
+    window.onmouseleave = function(e) {
       if (!e.target.matches('.dropbtn')) {
       var myDropdown = document.getElementById("myDropdown");
         if (myDropdown.classList.contains('show')) {
@@ -36,16 +36,15 @@
     }
     </script>
     
-    <div class="navi">
+    <div class="navi" id="Domain 1">
         <a href="https://malachikennedy.github.io/IT_Specialist_HTML-CSS_SupportFiles/">Home</a>
         <div class="dropdown" id="Domain 1">
-          <button class="dropbtn" onclick="myFunction()"> Domain 1
+          <button class="dropbtn" onmouseover="myFunction()"> Domain 1
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content" id="myDropdown">
             <a href="https://malachikennedy.github.io/IT_Specialist_HTML-CSS_SupportFiles/Domain%201/MusicStore1/11a-scripts.html">Script Support</a>
             <a href="https://malachikennedy.github.io/IT_Specialist_HTML-CSS_SupportFiles/Domain%201/MusicStore1/11c-scripts.html">Script Support 2</a>
-    
           </div>
         </div> 
       </div>
