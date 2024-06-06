@@ -1,3 +1,7 @@
+body{
+  text-align: center;  
+  background-color: #2864f0;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -52,4 +56,55 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+h3{
+  font-size: 2em;
+}
+h5{
+  font-size: 1.2em;
+}
+
+.right{
+  border: 4px solid #000000;
+  background-color: #2ecbff;
+  position: absolute;
+  right: 20px;
+  margin: 2px;
+  padding: 2px;
+  height: 1150px;
+  width: 65%;
+}
+
+.left{
+  border: 4px solid #000000;
+  background-color: #2ecbff;
+  position: absolute;
+  margin: 2px;
+  padding: 2px;
+  height: 900px;
+  width: 30%
+}
+
+.navi{
+  display: inline-block;
+  text-align: center;
+  background-color: #2864f0;
+}
+
+.banner{
+  background-color: #2ecbff;
+}
+
+a{
+  color: blue;
+  border: 2px solid #ccc;
+  border-radius: 5px; 
+  padding: 5px 10px; 
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: antiquewhite;
+  background-color: #2864f0;
 }
